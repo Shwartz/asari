@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-// import styles from '../styles/Home.module.scss'
+import {Hero} from "../components/hero/Hero";
 import styles from '../styles/index.module.scss'
 
 export default function Home() {
@@ -13,10 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section>
-        <p>Hero Block, nice view of sea/Jurmala + phone, + email, + price</p>
-      </section>
+      <Hero />
 
+      <div className={styles.content}>
       <section>
         <p>Intro text</p>
       </section>
@@ -35,11 +34,49 @@ export default function Home() {
 
       <section>
         <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
+        <p>Bonus text</p>
       </section>
+
 
       <footer className={styles.footer}>
         <p>Footer</p>
       </footer>
+      </div>
     </div>
   )
 }

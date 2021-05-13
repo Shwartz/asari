@@ -1,2 +1,14 @@
 @import "Home.module";
 
+.content {
+  position: absolute;
+  z-index: 1000;
+  top: 80vh;
+
+  background: rgb(44, 123, 153);
+  height: 100vh;
+  width: 100vw;
+
+  box-shadow: 0 -2px 1px rgba(0, 0, 0, .15);
+  border-top: 1px solid rgba(255, 255, 255, .2);
+}
