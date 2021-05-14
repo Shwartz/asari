@@ -3,6 +3,10 @@ import Image from 'next/image'
 
 import {Hero} from "../components/hero/Hero";
 import styles from '../styles/index.module.scss'
+import {Intro} from "../components/intro/Intro";
+import {Price} from "../components/price/Price";
+import {Empty} from "../components/empty/Empty";
+import {FloorPlans} from "../components/floorPlans/FloorPlans";
 
 export default function Home() {
   return (
@@ -16,62 +20,10 @@ export default function Home() {
       <Hero />
 
       <div className={styles.content}>
-      <section>
-        <p>Intro text</p>
-      </section>
-
-      <section>
-        <p>2 - 4 images block, consist of plans</p>
-      </section>
-
-      <section>
-        <p>Main Description</p>
-      </section>
-
-      <section>
-        <p>All Images</p>
-      </section>
-
-      <section>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-        <p>Bonus text</p>
-      </section>
-
+      <Intro />
+      <Price />
+      <Empty />
+      <FloorPlans />
 
       <footer className={styles.footer}>
         <p>Footer</p>
