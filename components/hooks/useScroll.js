@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import {useState, useEffect} from 'react'
 
 export function useScroll() {
   const [lastScrollTop, setLastScrollTop] = useState(0);
@@ -21,7 +21,7 @@ export function useScroll() {
 
   const listener = e => {
     if (!ticking) {
-      window.requestAnimationFrame(function() {
+      window.requestAnimationFrame(function () {
         updateScrollValues();
         ticking = false;
       });
