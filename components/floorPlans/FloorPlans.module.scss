@@ -17,14 +17,29 @@
 }
 
 .dl {
-  display: grid;
-  gap: 12px;
-  grid-template-columns: repeat(2, auto);
   margin: 0 auto 2rem;
+  display: grid;
 
   dt {
-    text-align: right;
+    font-size: 80%;
   }
 
+  dd {
+    margin-bottom: 24px;
+  }
 
+  @media (min-width: 500px) {
+
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, auto);
+    margin: 0 auto 2rem;
+
+    dt {
+      text-align: right;
+      font-size: 100%;
+    }
+  }
 }
+
+
