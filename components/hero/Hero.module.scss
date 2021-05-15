@@ -9,15 +9,14 @@
 
   background: url('/img/IMG_7349.jpeg') purple center;
   background-size: cover;
-  height: 110vh;
+  height: 100vh;
   width: 100vw;
 
   &:before {
     content: '';
     position: absolute;
-    height: 100%;
-    width: 100%;
-    height: 110vh;
+
+    height: 100vh;
     width: 100vw;
     background: rgba(0,0,0,0.4);
   }

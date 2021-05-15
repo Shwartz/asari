@@ -9,8 +9,8 @@ export const Intro = () => {
           Pārdodas māja ar ideālu lokāciju Jūrmalā, Asaros, pretī parkam. Tas nozīmē, ka kaimiņi aiz loga netraucēs
         </p>
         <p>
-          Aiz mājas pamatīga, iekopta teritorija! Pietiks vieta gan dārza ballēm, biznesa idejām vai laiskai
-          atpūtai.
+          Aiz mājas ir gruntīgs, iekopts dārzs! Pietiks vieta gan dārza ballēm, piemājas salātu dārzam, biznesa idejām vai laiskai
+          atpūtai. Sliktākā gadijumā, var treileru parku izveidot.
         </p>
         <p>
           Līdz jūrai 8 minūtes kājām, stacija 2 minūtes, veikals tikpat. Armēņu virtuve Nojan Tapan ir 3 minūtes no mājām.
