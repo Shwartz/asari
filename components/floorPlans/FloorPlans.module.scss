@@ -1,5 +1,5 @@
 .FloorPlans {
-  background: #59a0c6;
+  background: #427692;
   padding: 96px 8px;
 
   .block {
@@ -34,7 +34,7 @@
 
       display: grid;
       gap: 12px;
-      grid-template-columns: repeat(2, 50%);
+      grid-template-columns: repeat(2, auto);
 
       dt {
         text-align: right;

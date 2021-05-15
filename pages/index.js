@@ -25,13 +25,9 @@ export default function Home() {
         <Empty/>
         <FloorPlans/>
         <Gallery/>
-        <div style={{background: 'salmon'}}>
-          <p>Section: Īpašuma atrašanās vieta, karte:Riga-Jurmala, karte: Jurmala, Karte: Asari</p>
-          <p>Section: Bilžu galerija</p>
-          <p>Section: Sīkāk par to kas tieši tiek pārdots</p>
-        </div>
         <footer className={styles.footer}>
-          <p>Footer</p>
+          <p>Iedvesmai: https://senite.latio.lv/en/home-page-english/</p>
+          <p>Iedvesmai: https://m.city24.lv/real-estate/houses-for-sale/Jurmala-Indula-iela/5449981/</p>
         </footer>
       </div>
     </div>
