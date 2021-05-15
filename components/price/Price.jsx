@@ -10,7 +10,7 @@ export const Price = () => {
         </p>
         <p>Zvani: Telefons/Whatsapp,<br/>
           raksti: e-pasts</p>
-        <p className={styles.smallText}>Zvanīt lūdzu pēc 19:00,<br/> pa dienu pie virpas, nevaru runāt!</p>
+        <p className={styles.smallText}>Zvanīt lūdzu pēc 19:00,<br/> pa dienu pie virpas, runāt nevaru!</p>
       </div>
     </section>
   )

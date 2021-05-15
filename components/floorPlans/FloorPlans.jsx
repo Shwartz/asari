@@ -22,6 +22,8 @@ export const FloorPlans = () => {
           <dd>Ir</dd>
           <dt>Pirts:</dt>
           <dd>Ir, bet prasa uzlabojumus</dd>
+          <dt>Īpašnieki:</dt>
+          <dd>2 [uzzini vairāk]</dd>
         </dl>
         <Image
           src="/img/floor-plans-1200.jpg"
