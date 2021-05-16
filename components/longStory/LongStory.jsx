@@ -1,16 +1,16 @@
-import styles from './Intro.module.scss';
+import styles from './LongStory.module.scss';
 
-export const Intro = () => {
+export const LongStory = () => {
 
   return (
-    <section className={styles.intro}>
+    <section className={styles.longStory}>
       <div className={styles.block}>
         <p>
           Pārdodas māja ar ideālu lokāciju Jūrmalā, Asaros, pretī parkam. Tas nozīmē, ka kaimiņi aiz loga netraucēs
         </p>
         <p>
-          Aiz mājas ir gruntīgs, iekopts dārzs! Pietiks vieta gan dārza ballēm, piemājas salātu dārzam, biznesa idejām vai laiskai
-          atpūtai. Sliktākā gadijumā, var treileru parku izveidot.
+          Aiz mājas ir gruntīgs, iekopts dārzs! Pietiks vieta gan dārza ballēm, piemājas salātu dobēm, biznesa idejām vai laiskai
+          atpūtai. Sliktākā gadijumā, var treileru parku izveidot un izzīrēt rīdziniekiem.
         </p>
         <p>
           Līdz jūrai 8 minūtes kājām, stacija 2 minūtes, veikals tikpat. Armēņu virtuve Nojan Tapan ir 3 minūtes no mājām.

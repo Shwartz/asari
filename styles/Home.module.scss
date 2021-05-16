@@ -3,7 +3,7 @@
 }
 
 .container {
-  background: red;
+  background: black;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -28,4 +28,25 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+
+  .contactMe {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: white;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    z-index: 10;
+    padding: 16px 8px;
+    border-top-right-radius: 4px;
+    box-shadow: 2px -2px 5px 1px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: #099596;
+
+    &:hover {
+      color: green;
+    }
+  }
 }
+
+
