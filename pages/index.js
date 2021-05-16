@@ -7,6 +7,7 @@ import {Contact} from "../components/contact/Contact";
 import {FloorPlans} from "../components/floorPlans/FloorPlans";
 import {Gallery} from "../components/gallery/Gallery";
 import {Map} from "../components/map/Map";
+import {Footer} from "../components/footer/Footer";
 
 export default function Home() {
   return (
@@ -25,11 +26,7 @@ export default function Home() {
         <FloorPlans/>
         <Gallery/>
         <LongStory/>
-        <footer className={styles.footer}>
-          <p>Iedvesmai: https://senite.latio.lv/en/home-page-english/</p>
-          <p>Iedvesmai: https://m.city24.lv/real-estate/houses-for-sale/Jurmala-Indula-iela/5449981/</p>
-          <a href='#contact-me' className={styles.contactMe}>Sazināties ar īpašnieku</a>
-        </footer>
+        <Footer/>
       </div>
     </div>
   )

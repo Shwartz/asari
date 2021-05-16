@@ -9,15 +9,21 @@ export const FloorPlans = () => {
         <h1>Tehniskais apraksts</h1>
         <dl className={styles.dl}>
           <dt>Mājas kopējā platība:</dt>
-          <dd>10000m2</dd>
+          <dd>206m2</dd>
           <dt>Zemes platība:</dt>
-          <dd>100000m2</dd>
+          <dd>1556m2</dd>
           <dt>Mājas stāvi:</dt>
           <dd>2</dd>
           <dt>Dzīvokļu skaits:</dt>
           <dd>4</dd>
           <dt>Pilsētas ūdensvads:</dt>
           <dd>Ir</dd>
+          <dt>Pilsētas kanalizācija:</dt>
+          <dd>Ir</dd>
+          <dt>Jumts:</dt>
+          <dd>Skārda</dd>
+          <dt>Uzcelta:</dt>
+          <dd>1980</dd>
           <dt>Nojume mašīnai:</dt>
           <dd>Ir</dd>
           <dt>Pirts:</dt>
