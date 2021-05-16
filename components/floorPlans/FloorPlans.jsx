@@ -26,17 +26,16 @@ export const FloorPlans = () => {
           <dd>2 [uzzini vairāk]</dd>
         </dl>
         <Image
-          src="/img/floor-plans-1200.jpg"
-          alt="Pirmā stāva plāns"
-          width={1200}
-          height={744}
+          src="/img/floor-plan-1.jpg"
+          alt="Induļa 6 mājas pirmais stāva plāns"
+          width={1500}
+          height={935}
         />
-        <br/>
         <Image
-          src="/img/floor-plans-1200.jpg"
-          alt="Pirmā stāva plāns"
-          width={1200}
-          height={744}
+          src="/img/floor-plan-2.jpg"
+          alt="Induļa 6 mājas otrais stāva plāns"
+          width={1500}
+          height={819}
         />
       </div>
     </section>
