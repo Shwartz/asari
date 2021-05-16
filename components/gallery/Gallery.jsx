@@ -1,7 +1,7 @@
 import styles from './Gallery.module.scss';
 import ImageGallery from "react-image-gallery";
 
-const imgNrArr = '01, 03, 04, 05, 06, 07, 11, 13, 15, 17, 20, 21, 22, 26, 29, 31, 33, 34, 37, 38, 42, 45, 46, 49, 50';
+const imgNrArr = '01, 04, 06, 15, 17, 20, 21, 22, 26, 29, 31, 33, 34, 37, 38, 42, 45, 46, 49, 07, 13, 11, 50, 03, 05';
 const imgTemplate = (nr) => {
   return {
     original: `/gallery/asari_${nr}.jpg`,

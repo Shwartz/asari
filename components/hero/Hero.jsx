@@ -13,11 +13,19 @@ export const Hero = () => {
   }
 
   const opacityCoef = 1 - (yAxis * 0.00175);
-  const opacityValue = (opacityCoef <= 0 || opacityCoef >= 1) ? 0 : opacityCoef;
+  const opacityValue = (coef) => {
+    if (coef <=0 ) {
+      return 0;
+    } else if (coef >= 1) {
+      return 1;
+    } else {
+      return coef;
+    }
+  }
 
   return (
     <section className={styles.hero} style={{transform: `translate3d(0, ${calcTranslate(0.05)}, 0)`}}>
-      <h1 style={{transform: `translate3d(0, ${calcTranslate(0.5)}, 0)`, opacity: opacityValue}}>
+      <h1 style={{transform: `translate3d(0, ${calcTranslate(0.5)}, 0)`, opacity: opacityValue(opacityCoef)}}>
         Pārdodas māja ar dzīvokļiem Jūrmalā
       </h1>
     </section>
