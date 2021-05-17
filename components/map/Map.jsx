@@ -24,9 +24,9 @@ export const Map = () => {
         </p>
         <ul>
           <li>Veikals, restorāns, stacija: 5 minūtes</li>
-          <li>Jūra: 8 minūtes</li>
-          <li>Rimi/Maxima ar mašīnu: 7 minūtes</li>
-          <li>Majoru stacija ar mašīnu: 8 minūtes</li>
+          <li>Jūra: 7 minūtes</li>
+          <li>Rimi/Maxima ar mašīnu: 8 minūtes</li>
+          <li>Majoru stacija ar mašīnu: 10 minūtes</li>
           <li>Lidosta: 25 minūtes</li>
           <li>Rīga: 35 minūtes</li>
         </ul>

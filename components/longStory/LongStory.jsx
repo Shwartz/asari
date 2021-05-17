@@ -9,10 +9,10 @@ export const LongStory = () => {
         <div className={styles.flex}>
           <div className={styles.center}>
             <Image
-              src="/gallery/asari_01.jpg"
-              alt="Induļa 6 mājas pirmais stāva plāns"
-              width={1500}
-              height={935}
+              src="/img/indula-6-darzs.jpg"
+              alt="Asari, Induļa 6 dārzs ar skatu uz pirtiņu un mašīnas novietni"
+              width={600}
+              height={450}
             />
           </div>
           <div>
@@ -28,16 +28,16 @@ export const LongStory = () => {
         <div className={`${styles.flex} ${styles.reverse}`}>
           <div className={styles.center}>
             <Image
-              src="/gallery/asari_01.jpg"
-              alt="Induļa 6 mājas pirmais stāva plāns"
-              width={1500}
-              height={935}
+              src="/img/asari-jura.jpg"
+              alt="Jūras krasts pretī Asariem"
+              width={600}
+              height={450}
             />
           </div>
           <div>
             <h3>Vieta</h3>
             <p>Īpašums atrodas pretī parkam, kurā ir labiekārtots bērnu laukumiņš. Stacija un veikals 5 min
-              gājiena attālumā. Pretī veikalam ir armēņu restorāns ar izcilu virtuvi. Līdz jūrai 7 minūtes.</p>
+              gājiena attālumā. Pretī veikalam ir armēņu restorāns ar izcilu virtuvi.<br/> Līdz jūrai 7 minūtes.</p>
             <p>Tikai 10 minūšu brauciena attālumā ir Rimi, Maxima un Kauguru tirgus. Tāpat netālu ir vairākas
               skolas. (Pumpuri, Sloka). Poliklīnika Kauguros un Dubultos, blakus ir rehabilitācijas centrs Vaivari. </p>
             <p>Ir nojume mašīnai un plašs, iekopts dārzs.</p>
@@ -46,10 +46,10 @@ export const LongStory = () => {
         <div className={styles.flex}>
           <div className={styles.center}>
             <Image
-              src="/gallery/asari_01.jpg"
-              alt="Induļa 6 mājas pirmais stāva plāns"
-              width={1500}
-              height={935}
+              src="/img/parks.jpg"
+              alt="Asaru parka labiekārtotais laukumiņš Jūrmalā"
+              width={600}
+              height={450}
             />
           </div>
           <div>
@@ -70,10 +70,10 @@ export const LongStory = () => {
         <div className={`${styles.flex} ${styles.reverse}`}>
           <div className={styles.center}>
             <Image
-              src="/gallery/asari_01.jpg"
-              alt="Induļa 6 mājas pirmais stāva plāns"
-              width={1500}
-              height={935}
+              src="/img/perspektiva.jpg"
+              alt="Asaru dārza teritorija, Induļu iela 6"
+              width={600}
+              height={590}
             />
           </div>
           <div>
