@@ -15,6 +15,14 @@
     margin-bottom: 48px;
   }
 
+  a {
+    color: #c6d4dc;
+
+    &:hover {
+      color: #283841;
+    }
+  }
+
   .dl {
     margin: 0 auto 2rem;
     display: grid;

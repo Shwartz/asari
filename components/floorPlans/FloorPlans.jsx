@@ -29,7 +29,7 @@ export const FloorPlans = () => {
           <dt>Pirts:</dt>
           <dd>Ir, bet prasa uzlabojumus</dd>
           <dt>Īpašnieki:</dt>
-          <dd>2 [uzzini vairāk]</dd>
+          <dd>2 (<a href="#more-info">uzzini vairāk</a>)</dd>
         </dl>
         <Image
           src="/img/floor-plan-1.jpg"
@@ -43,6 +43,7 @@ export const FloorPlans = () => {
           width={1500}
           height={819}
         />
+        <p>Plāniem ir ilustratīva nozīme.</p>
       </div>
     </section>
   )

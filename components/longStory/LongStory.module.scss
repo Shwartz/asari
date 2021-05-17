@@ -1,16 +1,61 @@
 .longStory {
-  background: #c73f08;
+  background: #9c3309;
   padding: 96px 8px;
 
   .block {
-    max-width: 600px;
+    max-width: 1200px;
     margin: auto;
     font-size: 24px;
     color: white;
   }
 
-  a {
-    color: #aaf3e8;
+  .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    margin-bottom: 48px;
 
+    h3 {
+      font-size: 48px;
+      margin-bottom: 48px;
+    }
+
+    ul {
+      font-size: 18px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    > div {
+      flex-grow: 1;
+    }
+
+    .center {
+      align-items: center;
+      display: flex;
+    }
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+
+      &.reverse {
+        flex-direction: row-reverse;
+      }
+
+      > div {
+        width: 50%;
+      }
+    }
+  }
+
+  a {
+    color: #f6e1d7;
+
+    &:hover {
+      color: black;
+    }
   }
 }
