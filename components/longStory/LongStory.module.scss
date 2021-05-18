@@ -35,8 +35,8 @@
     }
 
     .center {
-      align-items: center;
       display: flex;
+      align-items: flex-start;
     }
 
     @media (min-width: 768px) {
@@ -48,6 +48,10 @@
 
       > div {
         width: 50%;
+      }
+
+      .center {
+        padding-top: 112px;
       }
     }
   }

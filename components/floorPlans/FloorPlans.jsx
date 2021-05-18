@@ -31,19 +31,23 @@ export const FloorPlans = () => {
           <dt>Īpašnieki:</dt>
           <dd>2 (<a href="#more-info">uzzini vairāk</a>)</dd>
         </dl>
-        <Image
-          src="/img/floor-plan-1.jpg"
-          alt="Induļa 6 mājas pirmais stāva plāns"
-          width={1500}
-          height={935}
-        />
-        <Image
-          src="/img/floor-plan-2.jpg"
-          alt="Induļa 6 mājas otrais stāva plāns"
-          width={1500}
-          height={819}
-        />
-        <p>Plāniem ir ilustratīva nozīme.</p>
+        <div id="floor-plans">
+          <p>Pirmais stāvs, dzīvokļi Nr. 1, 2 un 3.</p>
+          <Image
+            src="/img/floor-plan-1.jpg"
+            alt="Induļa 6 mājas pirmais stāva plāns"
+            width={1500}
+            height={935}
+          />
+          <p className={styles.mt24}>Otrais stāvs, dzīvokļi Nr. 4, 5 un 6.</p>
+          <Image
+            src="/img/floor-plan-2.jpg"
+            alt="Induļa 6 mājas otrais stāva plāns"
+            width={1500}
+            height={819}
+          />
+        </div>
+        <p className={styles.italic}>Plāniem ir ilustratīva nozīme.</p>
       </div>
     </section>
   )

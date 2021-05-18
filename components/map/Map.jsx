@@ -31,7 +31,7 @@ export const Map = () => {
           <li>Rīga: 35 minūtes</li>
         </ul>
       </div>
-      <div className={styles.wide}>
+      <div className={styles.wide} id="map">
         <a
           href="http://bit.ly/map-asari"
           title="Atvērt Google Map"
