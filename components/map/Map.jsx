@@ -15,12 +15,6 @@ export const Map = () => {
       <div className={styles.block}>
         <h1>Atrašanās vieta</h1>
         <p>Īpašums atrodas Induļa ielā 6, Asaros, Jūrmalā.<br/>
-          <a
-            href="http://bit.ly/map-asari"
-            title="Atvērt Google Map"
-            rel="noopener noreferrer"
-            target="_blank"> Apskatīt kartē
-          </a>
         </p>
         <ul>
           <li>Veikals, restorāns, stacija: 5 minūtes</li>

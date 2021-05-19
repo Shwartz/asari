@@ -26,7 +26,7 @@ export const Hero = () => {
   return (
     <section className={styles.hero} style={{transform: `translate3d(0, ${calcTranslate(0.05)}, 0)`}}>
       <h1 style={{transform: `translate3d(0, ${calcTranslate(0.5)}, 0)`, opacity: opacityValue(opacityCoef)}}>
-        Pārdodas māja ar dzīvokļiem Jūrmalā
+        Iegādājies māju ar dzīvokļiem Jūrmalā
       </h1>
     </section>
   )

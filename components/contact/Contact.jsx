@@ -6,7 +6,7 @@ export const Contact = () => {
     <section className={styles.contact} id='contact-me'>
       <div className={styles.block}>
         <h1>
-          Tavs īpašums par <b>&euro;148,995</b>
+          Tavs īpašums par <b>&euro;150 000</b>
         </h1>
 
         <dl className={styles.dl}>
@@ -16,7 +16,7 @@ export const Contact = () => {
           <dd>Telefons/Whatsapp</dd>
         </dl>
 
-        <p className={styles.smallText}>Zvanīt lūdzu pēc 19:00,<br/> pa dienu pie virpas, runāt nevaru!</p>
+        <p className={styles.smallText}>Zvanīt lūdzu pēc 19:00</p>
       </div>
     </section>
   )

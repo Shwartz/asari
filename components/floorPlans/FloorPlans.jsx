@@ -6,9 +6,9 @@ export const FloorPlans = () => {
   return (
     <section className={styles.FloorPlans}>
       <div className={styles.block}>
-        <h1>Tehniskais apraksts</h1>
+        <h1>Mājas informācija</h1>
         <dl className={styles.dl}>
-          <dt>Mājas kopējā platība:</dt>
+          <dt>Dzīvokļu kopējā platība:</dt>
           <dd>206m2</dd>
           <dt>Zemes platība:</dt>
           <dd>1556m2</dd>
@@ -26,13 +26,11 @@ export const FloorPlans = () => {
           <dd>1980</dd>
           <dt>Nojume mašīnai:</dt>
           <dd>Ir</dd>
-          <dt>Pirts:</dt>
-          <dd>Ir, bet prasa uzlabojumus</dd>
           <dt>Īpašnieki:</dt>
           <dd>2 (<a href="#more-info">uzzini vairāk</a>)</dd>
         </dl>
         <div id="floor-plans">
-          <p>Pirmais stāvs, dzīvokļi Nr. 1, 2 un 3.</p>
+          <p>Pirmais stāvs, dzīvoklis Nr. 1.</p>
           <Image
             src="/img/floor-plan-1.jpg"
             alt="Induļa 6 mājas pirmais stāva plāns"
