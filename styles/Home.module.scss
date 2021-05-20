@@ -3,21 +3,12 @@
 }
 
 .container {
-  background: black;
+  background: salmon;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 0 0.75rem;
   justify-content: center;
   align-items: center;
-
-  @media (min-width: 1024px) {
-    padding: 0 1.25rem;
-  }
-
-  @media (min-width: 1536px) {
-    padding: 0 1.75rem;
-  }
 }
 
 

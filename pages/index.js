@@ -1,13 +1,12 @@
 import Head from 'next/head'
-
-import {Hero} from "../components/hero/Hero";
+import {LongStory} from "../components/slices/longStory/LongStory";
+import {Contact} from "../components/slices/contact/Contact";
+import {FloorPlans} from "../components/slices/floorPlans/FloorPlans";
+import {Gallery} from "../components/slices/gallery/Gallery";
+import {Map} from "../components/slices/map/Map";
+import {Footer} from "../components/slices/footer/Footer";
 import styles from '../styles/index.module.scss'
-import {LongStory} from "../components/longStory/LongStory";
-import {Contact} from "../components/contact/Contact";
-import {FloorPlans} from "../components/floorPlans/FloorPlans";
-import {Gallery} from "../components/gallery/Gallery";
-import {Map} from "../components/map/Map";
-import {Footer} from "../components/footer/Footer";
+import {Hero} from "../components/slices/hero/Hero";
 
 export default function Home() {
   return (
@@ -16,18 +15,18 @@ export default function Home() {
         <title>Māja Jūrmalā, Induļa 6</title>
         <meta name="description" content="Pārdod māju Asaros, Jūrmalā"/>
         <link rel="icon" href="/favicon.ico"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet"/>
       </Head>
 
       <Hero/>
+      <Map/>
+      <Contact/>
+      <FloorPlans/>
+      <Gallery/>
+      <LongStory/>
+      <Footer/>
 
-      <div className={styles.content}>
-        <Map/>
-        <Contact/>
-        <FloorPlans/>
-        <Gallery/>
-        <LongStory/>
-        <Footer/>
-      </div>
     </div>
-  )
+)
 }

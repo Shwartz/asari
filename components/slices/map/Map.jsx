@@ -1,15 +1,9 @@
 import React from "react";
-import ReactMapGL from 'react-map-gl';
 import styles from './Map.module.scss';
 import Image from "next/image";
+import ModalImage from "react-modal-image";
 
 export const Map = () => {
-  const [viewport, setViewport] = React.useState({
-    latitude: 41.5868,
-    longitude: -93.625,
-    zoom: 13,
-  });
-
   return (
     <section className={styles.map}>
       <div className={styles.block}>
@@ -24,6 +18,14 @@ export const Map = () => {
           <li>Lidosta: 25 minūtes</li>
           <li>Rīga: 35 minūtes</li>
         </ul>
+
+        <ModalImage
+          small={'/gallery/asari_26_thumb.jpg'}
+          large={'/gallery/asari_26.jpg'}
+          alt="Mājas 1. stāva plāns."
+          hideDownload={true}
+          hideZoom={false}
+        />
       </div>
       <div className={styles.wide} id="map">
         <a
@@ -39,15 +41,6 @@ export const Map = () => {
           />
         </a>
       </div>
-
-      {/* <ReactMapGL
-          {...viewport}
-          width="100%"
-          height="100%"
-          onViewportChange={(viewport) => setViewport(viewport)}
-          mapboxApiAccessToken="YOUR_MAPBOX_TOKEN_HERE"
-        />*/}
-
     </section>
   );
 }
