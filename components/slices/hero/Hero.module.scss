@@ -1,0 +1,59 @@
+@import "styles/mixins";
+
+.slice {
+  width: 100%;
+  background: #20344C;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+
+.text {
+  padding: 32px 8px;
+}
+
+.price {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  margin-top: 48px;
+}
+
+.sixteenNine {
+  @include aspect-ratio(16,9);
+
+  .content {
+    background: url('/gallery/asari_11.jpg') no-repeat center;
+    background-size: cover;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .flex {
+    flex-direction: row-reverse;
+
+    > div {
+      width: 50%
+    }
+  }
+
+  .text {
+    padding: 32px 16px;
+  }
+
+}
+
