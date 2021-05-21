@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.blockText {
+  display: grid;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .flex {
+    flex-direction: row-reverse;
+
+    > div {
+      width: 50%
+    }
+  }
+}

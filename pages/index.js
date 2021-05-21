@@ -7,6 +7,7 @@ import {Map} from "../components/slices/map/Map";
 import {Footer} from "../components/slices/footer/Footer";
 import styles from '../styles/index.module.scss'
 import {Hero} from "../components/slices/hero/Hero";
+import {DetailMap} from "../components/slices/detailMap/DetailMap";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
 
       <Hero/>
       <Map/>
+      <DetailMap/>
       <Contact/>
       <FloorPlans/>
       <Gallery/>
