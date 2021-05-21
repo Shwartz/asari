@@ -1,9 +1,9 @@
 import styles from './Section.module.scss';
 
-export const Section = ({children, bgColor}) => {
+export const Section = ({children, bgColor = '#fafafa'}) => {
 
   return (
-    <section style={{backgroundColor: bgColor}} className={styles.slice}>
+    <section className={styles.slice} style={{backgroundColor: bgColor}}>
       <div className={styles.wrap}>{children}</div>
     </section>
   )

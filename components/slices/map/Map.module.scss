@@ -1,43 +1,65 @@
-.map {
-  background: #427692;
-  padding: 96px 8px;
+@import "styles/mixins";
 
-  .block {
-    max-width: 600px;
-    margin: auto;
-    font-size: 36px;
-    color: white;
+.flex {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.sixteenNine {
+  @include aspect-ratio(16,9);
+
+  .content {
+
+  }
+}
+
+.title {
+  padding: 24px 8px 16px;
+  text-align: center;
+}
+
+.blockText {
+  display: grid;
+  margin-bottom: 24px;
+}
+
+.mapLink {
+  display: grid;
+  align-content: center;
+  height: 100%;
+
+}
+
+.openIcn {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+}
+
+.gridDefinitionTerm {
+  display: inline-grid;
+  grid-gap: 12px;
+  gap: 12px;
+  grid-template-columns: repeat(2, auto);
+  margin: auto;
+  padding: 0 16px;
+
+  dt {
+    font-weight: bold;
   }
 
-  .wide {
-    max-width: 1200px;
-    margin: auto;
+  dd {
+    margin: 0;
   }
+}
 
-  h1 {
-    font-size: 48px;
-    margin-bottom: 48px;
-  }
+@media (min-width: 768px) {
+  .flex {
+    flex-direction: row-reverse;
 
-  p, li, a {
-    font-size: 24px;
-  }
-
-  ul {
-    margin-bottom: 48px;
-    margin-left: 24px;
-  }
-
-  li {
-    list-style: disc;
-    margin-bottom: 8px;
-  }
-
-  a {
-    color: #c6d4dc;
-
-    &:hover {
-      color: #283841;
+    > div {
+      width: 50%
     }
   }
+
 }

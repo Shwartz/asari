@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Māja Jūrmalā, Induļa 6</title>
-        <meta name="description" content="Pārdod māju Asaros, Jūrmalā"/>
+        <title>Iegādājies māju Jūrmalā</title>
+        <meta name="description" content="Pārdodas daudzīvokļu nams Jūrmalā tikai 10 minūtes no jūras"/>
         <link rel="icon" href="/favicon.ico"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet"/>
