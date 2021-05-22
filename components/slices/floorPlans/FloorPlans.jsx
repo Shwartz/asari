@@ -10,7 +10,7 @@ export const FloorPlans = () => {
       <h1 className={styles.title}>Dzīvokļu plāni</h1>
       <div className={styles.flex}>
         <div>
-          <h3 className={styles.subTitle}>Otrā stāva plāns</h3>
+          <h3>Otrā stāva plāns</h3>
           <div className={styles.text}>
             <p>Otrajā stāvā ir dzīvokļi Nr 4, 5 un 6.</p>
             <p>Pārdodas visi trīs dzīvokļi</p>
@@ -38,7 +38,7 @@ export const FloorPlans = () => {
           </div>
         </div>
         <div>
-          <h3 className={styles.subTitle}>Pirmā stāva plāns</h3>
+          <h3>Pirmā stāva plāns</h3>
           <div className={styles.text}>
             <p>Pirmajā stāvā ir dzīvokļi Nr 1, 2 un 3.</p>
             <p>Pārdodas divu istabu dzīvoklis Nr 1. </p>

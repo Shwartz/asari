@@ -1,31 +1,13 @@
 import styles from './LongStory.module.scss';
 import Image from "next/image";
+import {Section} from "../../section/Section";
 
 export const LongStory = () => {
 
   return (
-    <section className={styles.longStory} id='more-info'>
-      <div className={styles.block}>
-        <div className={styles.flex}>
-          <div className={styles.center}>
-            <Image
-              src="/img/indula-6-darzs.jpg"
-              alt="Asari, Induļa 6 dārzs ar skatu uz pirtiņu un mašīnas novietni"
-              width={600}
-              height={450}
-            />
-          </div>
-          <div>
-            <h3>Īpašums</h3>
-            <p>Īpašums ir celts 1980 gadā, koka divstāvu konstrukcija. Jumts nomainīts pirms gadiem septiņiem, kopā ar
-              tā maiņu tika atjaunoti skursteņi.</p>
-            <p>Īpašumam ir divi īpašnieki un viens pārdod visas savas domājamās daļas.</p>
-            <p>Īpašums sastāv no 6 dzīvokļiem, no tiem pārdodas 4 dzīvokļi ar kopējo platību 206m2 un zeme 1556m2</p>
-            <p>Pārdodas 1.dz, 4.dz, 5.dz un 6.dz, respektīvi, viss otrais stāvs un 1. dzīvoklis no pirmā stāva</p>
-            <p>Visas domājamās daļas ir atrunātas, atzīmētas plānā un ar līgumu pievienotas Zemes grāmatā.</p>
-          </div>
-        </div>
-        <div className={`${styles.flex} ${styles.reverse}`}>
+    <>
+      <Section bgColor='#fff'>
+        <div className={styles.flex} id='more-info'>
           <div className={styles.center}>
             <Image
               src="/img/asari-jura.jpg"
@@ -43,6 +25,29 @@ export const LongStory = () => {
             <p>Ir nojume mašīnai un plašs, iekopts dārzs.</p>
           </div>
         </div>
+      </Section>
+      <Section bgColor='#f7fafd'>
+        <div className={`${styles.flex} ${styles.reverse}`}>
+          <div className={styles.center}>
+            <Image
+              src="/img/indula-6-darzs.jpg"
+              alt="Asari, Induļa 6 dārzs ar skatu uz pirtiņu un mašīnas novietni"
+              width={600}
+              height={450}
+            />
+          </div>
+          <div>
+            <h3>Īpašums</h3>
+            <p>Īpašums ir celts 1980 gadā, koka divstāvu konstrukcija. Jumts nomainīts pirms gadiem septiņiem, kopā ar
+              tā maiņu tika atjaunoti skursteņi.</p>
+            <p>Īpašumam ir divi īpašnieki un viens pārdod visas savas domājamās daļas.</p>
+            <p>Īpašums sastāv no 6 dzīvokļiem, no tiem pārdodas 4 dzīvokļi ar kopējo platību 206m2 un zeme 1556m2</p>
+            <p>Pārdodas 1.dz, 4.dz, 5.dz un 6.dz, respektīvi, viss otrais stāvs un 1. dzīvoklis no pirmā stāva</p>
+            <p><b>Visas domājamās daļas ir atrunātas, atzīmētas plānā un ar līgumu pievienotas Zemes grāmatā.</b></p>
+          </div>
+        </div>
+      </Section>
+      <Section bgColor='#fff'>
         <div className={styles.flex}>
           <div className={styles.center}>
             <Image
@@ -67,6 +72,8 @@ export const LongStory = () => {
             </ul>
           </div>
         </div>
+      </Section>
+      <Section bgColor='#f7fafd'>
         <div className={`${styles.flex} ${styles.reverse}`}>
           <div className={styles.center}>
             <Image
@@ -78,14 +85,18 @@ export const LongStory = () => {
           </div>
           <div>
             <h3>Perspektīva</h3>
-            <p>Šis īpašums, pateicoties lokācijai, ir perspektīvs investīciju objekts kuru var pārvērst B&amp;B. Protams, mājai ir nepieciešams
+            <p>Šis īpašums, pateicoties lokācijai, ir perspektīvs investīciju objekts kuru var pārvērst B&amp;B.
+              Protams,
+              mājai ir nepieciešams
               ieguldījums, bet to var darīt arī pakāpeniski</p>
-            <p>Dārza teritorija ir pietiekami liela (1500m2) un tur radoši cilvēki varētu atrast interesantu pielietojumu</p>
-            <p>Iespējams, kāda liela ģimene šo māju saskatītu kā iespēju aizmukt no pilsētas un izveidot radošu vietu.</p>
+            <p>Dārza teritorija ir pietiekami liela (1500m2) un tur radoši cilvēki varētu atrast interesantu
+              pielietojumu</p>
+            <p>Iespējams, kāda liela ģimene šo māju saskatītu kā iespēju aizmukt no pilsētas un izveidot radošu
+              vietu.</p>
           </div>
         </div>
+      </Section>
 
-      </div>
-    </section>
+    </>
   )
 }

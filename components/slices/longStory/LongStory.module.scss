@@ -1,66 +1,23 @@
-.longStory {
-  background: #9c3309;
-  padding: 96px 8px;
+.flex {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 24px 0;
 
-  .block {
-    max-width: 1200px;
-    margin: auto;
-    font-size: 24px;
-    color: white;
+  > div {
+    padding: 16px;
   }
+}
 
+@media (min-width: 768px) {
   .flex {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
-    width: 100%;
-    margin-bottom: 48px;
-
-    h3 {
-      font-size: 48px;
-      margin-bottom: 48px;
-    }
-
-    ul {
-      font-size: 18px;
-    }
-
-    li {
-      margin-bottom: 8px;
+    &.reverse {
+      flex-direction: row-reverse;
     }
 
     > div {
-      flex-grow: 1;
-      padding: 8px;
-    }
-
-    .center {
-      display: flex;
-      align-items: flex-start;
-    }
-
-    @media (min-width: 768px) {
-      flex-direction: row;
-
-      &.reverse {
-        flex-direction: row-reverse;
-      }
-
-      > div {
-        width: 50%;
-      }
-
-      .center {
-        padding-top: 112px;
-      }
-    }
-  }
-
-  a {
-    color: #f6e1d7;
-
-    &:hover {
-      color: black;
+      width: 50%;
     }
   }
 }

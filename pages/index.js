@@ -33,8 +33,8 @@ export default function Home() {
       <DetailMap/>
       <FloorPlans/>
       {load ? <Gallery/> : <p>Loading Gallery ...</p>}
-      <Contact/>
       <LongStory/>
+      <Contact/>
       <Footer/>
     </div>
 )

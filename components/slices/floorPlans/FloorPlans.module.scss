@@ -24,12 +24,12 @@
   margin: 48px 0 24px 16px;
 }
 
-.subTitle {
-  margin-bottom: 24px;
-}
-
 .text {
-  padding-bottom: 12px
+  padding-bottom: 12px;
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -48,7 +48,7 @@
 
 @media (min-width: 1024px) {
   .text {
-    min-height: 168px;
+    min-height: 186px;
   }
 }
 
