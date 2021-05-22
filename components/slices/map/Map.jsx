@@ -7,7 +7,7 @@ import {NineSixteen} from "../../nineSixteen/NineSixteen";
 
 export const Map = () => {
   return (
-    <Section bgColor='#fafafa'>
+    <Section bgColor='#fbfdff'>
 
       <div className={styles.flex}>
 
@@ -21,8 +21,6 @@ export const Map = () => {
             <dt>Jūra ar kājām:</dt>
             <dd>7 minūtes</dd>
             <dt>Rimi/Maxima ar auto:</dt>
-            <dd>10 minūtes</dd>
-            <dt>Majoru stacija ar auto:</dt>
             <dd>10 minūtes</dd>
             <dt>Lidosta:</dt>
             <dd>25 minūtes</dd>
@@ -48,10 +46,10 @@ export const Map = () => {
 
             <div className={styles.openIcn}>
               <Image
-                src="/icn/open-new-tab.png"
-                alt="Atver linku jaunā lapā"
-                width={60}
-                height={51}
+                src="/icn/icn-open-img.svg"
+                alt="Atver karti ar Induļu ielas 6 māju jaunā pārlūka lapā"
+                width={40}
+                height={40}
               />
             </div>
           </a>

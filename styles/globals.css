@@ -52,8 +52,9 @@ input{
   border-radius: 0;
 }
 
-h1, h2, h3 {
+h1, h3 {
   font-weight: 100;
+  color: #20344C;
 }
 
 h1 {
@@ -65,4 +66,5 @@ p, dt, dd, li {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.3em;
+  color: #20344C;
 }

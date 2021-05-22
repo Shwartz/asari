@@ -8,6 +8,39 @@
   margin-bottom: 24px;
 }
 
+.imgWrap {
+  position: relative;
+  display: grid;
+  justify-content: center;
+}
+
+.openIcn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.title {
+  margin: 48px 0 24px 16px;
+}
+
+.gridDefinitionTerm {
+  display: inline-grid;
+  grid-gap: 12px;
+  gap: 12px;
+  grid-template-columns: repeat(2, auto);
+  margin: auto;
+  padding: 16px;
+
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
 @media (min-width: 768px) {
   .flex {
     flex-direction: row-reverse;
