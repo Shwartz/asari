@@ -1,13 +1,11 @@
 .contactMe {
   position: fixed;
-  width: 300px;
+  width: 100%;
   bottom: 0;
   left: 0;
   padding: 16px 8px;
   background: #fff8f1;
-  border-right: 1px solid black;
   border-top: 1px solid black;
-  border-top-right-radius: 4px;
   box-shadow: 2px -2px 5px 1px rgba(0, 0, 0, 0.5);
   font-size: 18px;
   font-weight: 900;
@@ -18,4 +16,24 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+@media (min-width: 500px) {
+  .contactMe {
+    width: 300px;
+    border-right: 1px solid black;
+    border-top-right-radius: 4px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contactMe {
+    left: auto;
+    right: 0;
+    box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-right: 1px solid transparent;
+    border-left: 1px solid black;
+  }
 }
