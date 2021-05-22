@@ -18,7 +18,7 @@ export const ContactMe = () => {
         </a>
         <a
           title="Atvērs Whatsapp aplikāciju"
-          href="https://wa.me/447725538871?text=Labdien,%20Man%20gribētos%20precizēt%20par%20māju%20Asaros."
+          href="https://wa.me/37128753239?text=Labdien,%20Man%20gribētos%20precizēt%20par%20māju%20Asaros."
         >
           <Image
             src="/icn/iconfinder_social-media_whatsapp_1994550.svg"

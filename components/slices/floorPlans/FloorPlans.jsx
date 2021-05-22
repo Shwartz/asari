@@ -7,7 +7,7 @@ export const FloorPlans = () => {
 
   return (
     <Section bgColor='#f7fafd'>
-      <h1 className={styles.title}>Dzīvokļu plāni</h1>
+      <h1 id='floor-plans' className={styles.title}>Dzīvokļu plāni</h1>
       <div className={styles.flex}>
         <div>
           <h3>Otrā stāva plāns</h3>

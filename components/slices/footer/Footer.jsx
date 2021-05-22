@@ -4,7 +4,7 @@ import {ContactMe} from "../../contactMe/ContactMe";
 
 export const Footer = () => {
   return (
-    <Section bgColor='#fff'>
+    <Section bgColor='#efefef'>
       <footer id="contact-me" className={styles.footer}>
         <dl className={styles.gridDefinitionTerm}>
           <dt>e-pasts:</dt>

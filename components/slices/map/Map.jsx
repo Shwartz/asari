@@ -27,15 +27,16 @@ export const Map = () => {
         <NineSixteen>
           <a
             href="http://bit.ly/map-asari"
+            id='map'
             className={styles.mapLink}
             title="Atvērt Google Map"
             rel="noopener noreferrer"
             target="_blank">
             <Image
-              src="/img/map-jurmala.jpg"
+              src="/img/map-jurmala-icn-big.jpg"
               alt="Induļu ielas 6 mājas atrašanās vieta kartē"
-              width={1500}
-              height={831}
+              width={1216}
+              height={684}
             />
             <div className={styles.openIcn}>
               <Image
