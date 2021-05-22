@@ -1,8 +1,8 @@
 import styles from './Footer.module.scss';
 import {Section} from "../../section/Section";
+import {ContactMe} from "../../contactMe/ContactMe";
 
 export const Footer = () => {
-
   return (
     <Section bgColor='#fff'>
       <footer id="contact-me" className={styles.footer}>
@@ -23,9 +23,8 @@ export const Footer = () => {
           <a href="#floor-plans">Dzīvokļu plāni</a><br/>
           <a href="#map">Karte</a><br/>
         </p>
-
-        <a href='#contact-me' className={styles.contactMe}>Sazināties ar īpašnieku</a>
       </footer>
+        <ContactMe/>
     </Section>
   )
 }
