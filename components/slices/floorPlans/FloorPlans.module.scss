@@ -1,69 +1,55 @@
-.FloorPlans {
-  background: #427692;
-  padding: 96px 8px;
+.flex {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 48px;
 
-  .block {
-    max-width: 1200px;
-    margin: auto;
-    font-size: 24px;
-    color: white;
-  }
-
-  h1 {
-    font-size: 48px;
-    text-align: center;
-    margin-bottom: 48px;
-  }
-
-  a {
-    color: #c6d4dc;
-
-    &:hover {
-      color: #283841;
-    }
-  }
-
-  .mt24 {
-    margin-top: 24px;
-  }
-
-  .italic {
-    font-style: italic;
-    font-size: 18px;
-  }
-
-  .dl {
-    margin: 0 auto 2rem;
-    display: grid;
-
-    dt {
-      font-size: 80%;
-      margin-bottom: 8px;
-    }
-
-    dd {
-      text-align: left;
-      margin-bottom: 24px;
-      margin-left: 16px;
-    }
-
-    @media (min-width: 500px) {
-
-      display: grid;
-      gap: 12px;
-      grid-template-columns: repeat(2, auto);
-
-      dt {
-        text-align: right;
-        font-size: 100%;
-        margin-bottom: 0;
-      }
-
-      dd {
-        margin-left: 8px;
-        margin-bottom: 0;
-      }
-    }
+  > div {
+    padding: 16px;
   }
 }
+
+.imgWrap {
+  position: relative;
+  display: grid;
+  justify-content: center;
+}
+
+.openIcn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.title {
+  margin: 48px 0 24px 16px;
+}
+
+.subTitle {
+  margin-bottom: 24px;
+}
+
+.text {
+  padding-bottom: 12px
+}
+
+@media (min-width: 768px) {
+  .flex {
+    flex-direction: row-reverse;
+
+    > div {
+      width: 50%;
+    }
+  }
+
+  .text {
+    min-height: 224px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text {
+    min-height: 168px;
+  }
+}
+
 

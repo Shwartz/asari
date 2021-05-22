@@ -23,12 +23,12 @@ export default function Home() {
       <Hero/>
       <Map/>
       <DetailMap/>
-      <Contact/>
       <FloorPlans/>
+
+      <Contact/>
       <Gallery/>
       <LongStory/>
       <Footer/>
-
     </div>
 )
 }
