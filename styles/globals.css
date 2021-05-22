@@ -83,6 +83,14 @@ b {
   font-weight: 900;
 }
 
+a {
+  color: #2e93c3;
+}
+
+a:hover {
+  color: #306683;
+}
+
 .image-gallery-slides {
   min-height: 300px;
 }

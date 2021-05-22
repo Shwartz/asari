@@ -3,7 +3,6 @@ import dynamic from 'next/dynamic';
 import Head from 'next/head';
 
 import {LongStory} from "../components/slices/longStory/LongStory";
-import {Contact} from "../components/slices/contact/Contact";
 import {FloorPlans} from "../components/slices/floorPlans/FloorPlans";
 const Gallery = dynamic(() => import('../components/slices/gallery/Gallery'))
 import {Map} from "../components/slices/map/Map";
@@ -34,7 +33,6 @@ export default function Home() {
       <FloorPlans/>
       {load ? <Gallery/> : <p>Loading Gallery ...</p>}
       <LongStory/>
-      <Contact/>
       <Footer/>
     </div>
 )

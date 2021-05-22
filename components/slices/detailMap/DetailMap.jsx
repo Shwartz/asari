@@ -1,12 +1,9 @@
 import styles from './DetailMap.module.scss';
 import {Section} from "../../section/Section";
-import {NineSixteen} from "../../nineSixteen/NineSixteen";
 import ModalImage from "react-modal-image";
 import Image from "next/image";
 
-
 export const DetailMap = () => {
-
   return (
     <Section bgColor='#fff'>
       <h1 className={styles.title}>Mājas informācija</h1>
