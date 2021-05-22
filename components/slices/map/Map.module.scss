@@ -3,18 +3,9 @@
   flex-direction: column-reverse;
 }
 
-/*.title {
-  padding: 24px 8px 16px;
-  text-align: center;
-}*/
-
 .blockText {
   display: grid;
   margin-bottom: 24px;
-}
-
-.mapLink {
-
 }
 
 .openIcn {
@@ -25,8 +16,8 @@
 
 .gridDefinitionTerm {
   display: inline-grid;
-  grid-gap: 12px;
-  gap: 12px;
+  grid-gap: 8px;
+  gap: 8px;
   grid-template-columns: repeat(2, auto);
   margin: auto;
   padding: 16px;

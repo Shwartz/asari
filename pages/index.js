@@ -1,8 +1,11 @@
-import Head from 'next/head'
+import React, {useEffect, useState} from "react";
+import dynamic from 'next/dynamic';
+import Head from 'next/head';
+
 import {LongStory} from "../components/slices/longStory/LongStory";
 import {Contact} from "../components/slices/contact/Contact";
 import {FloorPlans} from "../components/slices/floorPlans/FloorPlans";
-import {Gallery} from "../components/slices/gallery/Gallery";
+const Gallery = dynamic(() => import('../components/slices/gallery/Gallery'))
 import {Map} from "../components/slices/map/Map";
 import {Footer} from "../components/slices/footer/Footer";
 import styles from '../styles/index.module.scss'
@@ -10,6 +13,11 @@ import {Hero} from "../components/slices/hero/Hero";
 import {DetailMap} from "../components/slices/detailMap/DetailMap";
 
 export default function Home() {
+  const [load, setLoad] = useState(false);
+  useEffect(() => {
+    setLoad(true);
+  }, [])
+
   return (
     <div className={styles.container}>
       <Head>
@@ -24,9 +32,8 @@ export default function Home() {
       <Map/>
       <DetailMap/>
       <FloorPlans/>
-
+      {load ? <Gallery/> : <p>Loading Gallery ...</p>}
       <Contact/>
-      <Gallery/>
       <LongStory/>
       <Footer/>
     </div>

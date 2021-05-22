@@ -84,15 +84,7 @@ export const LongStory = () => {
             <p>Iespējams, kāda liela ģimene šo māju saskatītu kā iespēju aizmukt no pilsētas un izveidot radošu vietu.</p>
           </div>
         </div>
-        <p>
-          <a
-            href="https://www.city24.lv/lv/nekustamais-ipasums/pardod-maju/Jurmala/5449981;jsessionid=AC9966B47BE0418BA41CB18EC64CA33E?useFullVersion=#_gallery-group-01"
-            title="Atvērt bilžu galeriju city24 vietnē"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Papildus bildes vietnē city24.lv</a>
-        </p>
+
       </div>
     </section>
   )

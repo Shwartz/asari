@@ -72,3 +72,19 @@ p, dt, dd, li {
   line-height: 1.3em;
   color: #20344C;
 }
+
+.image-gallery-slides {
+  min-height: 300px;
+}
+
+@media (min-width: 768px) {
+  .image-gallery-slides {
+    min-height: 465px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .image-gallery-slides {
+    min-height: 600px;
+  }
+}

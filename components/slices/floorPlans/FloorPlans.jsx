@@ -6,7 +6,7 @@ import ModalImage from "react-modal-image";
 export const FloorPlans = () => {
 
   return (
-    <Section bgColor='#fbfdff'>
+    <Section bgColor='#f7fafd'>
       <h1 className={styles.title}>Dzīvokļu plāni</h1>
       <div className={styles.flex}>
         <div>

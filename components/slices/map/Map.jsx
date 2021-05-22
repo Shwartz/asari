@@ -1,18 +1,14 @@
 import React from "react";
 import styles from './Map.module.scss';
 import Image from "next/image";
-import ModalImage from "react-modal-image";
 import {Section} from "../../section/Section";
 import {NineSixteen} from "../../nineSixteen/NineSixteen";
 
 export const Map = () => {
   return (
-    <Section bgColor='#fbfdff'>
-
+    <Section bgColor='#f7fafd'>
       <div className={styles.flex}>
-
         <div className={styles.blockText}>
-          {/*<h1 className={styles.title}>Atrašanās vieta</h1>*/}
           <dl className={styles.gridDefinitionTerm}>
             <dt>Addrese:</dt>
             <dd>Induļa iela 6, Asari</dd>
@@ -28,7 +24,6 @@ export const Map = () => {
             <dd>35 minūtes</dd>
           </dl>
         </div>
-
         <NineSixteen>
           <a
             href="http://bit.ly/map-asari"
@@ -36,14 +31,12 @@ export const Map = () => {
             title="Atvērt Google Map"
             rel="noopener noreferrer"
             target="_blank">
-
             <Image
               src="/img/map-jurmala.jpg"
               alt="Induļu ielas 6 mājas atrašanās vieta kartē"
               width={1500}
               height={831}
             />
-
             <div className={styles.openIcn}>
               <Image
                 src="/icn/icn-open-img.svg"
@@ -54,17 +47,7 @@ export const Map = () => {
             </div>
           </a>
         </NineSixteen>
-
       </div>
     </Section>
-    /*
-        <ModalImage
-          small={'/gallery/asari_26_thumb.jpg'}
-          large={'/gallery/asari_26.jpg'}
-          alt="Mājas 1. stāva plāns."
-          hideDownload={true}
-          hideZoom={false}
-        />
-     */
   );
 }

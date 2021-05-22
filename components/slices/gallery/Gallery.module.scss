@@ -1,11 +1,12 @@
-.gallery {
-  background: rgba(0,0,0,0.8);
-  text-align: center;
-  max-width: 100%;
+.title {
+  margin: 48px 0 24px 16px;
+  color: #fff;
+}
 
-  .block {
-    max-width: 1200px;
-    margin: auto;
-    font-size: 36px;
+.link {
+  padding: 24px 16px;
+
+  a {
+    color: #fff;
   }
 }
