@@ -1,7 +1,7 @@
 .flex {
   display: flex;
   flex-direction: column-reverse;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 
   > div {
     padding: 16px;
@@ -30,6 +30,12 @@
   p {
     margin-bottom: 0;
   }
+}
+
+.info {
+  font-style: italic;
+  text-align: right;
+  padding: 0 16px;
 }
 
 @media (min-width: 768px) {

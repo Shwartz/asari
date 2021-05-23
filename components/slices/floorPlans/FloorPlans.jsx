@@ -62,8 +62,8 @@ export const FloorPlans = () => {
             />
           </div>
         </div>
-
       </div>
+      <p className={styles.info}>Plāniem ir informatīva nozīme.</p>
     </Section>
   )
 }

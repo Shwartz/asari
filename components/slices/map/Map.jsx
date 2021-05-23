@@ -10,7 +10,7 @@ export const Map = () => {
       <div className={styles.flex}>
         <div className={styles.blockText}>
           <dl className={styles.gridDefinitionTerm}>
-            <dt>Addrese:</dt>
+            <dt>Adrese:</dt>
             <dd>Induļa iela 6, Asari</dd>
             <dt>Veikals un stacija<br/>ar kājām:</dt>
             <dd>5 minūtes</dd>
