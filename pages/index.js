@@ -4,6 +4,7 @@ import Head from 'next/head';
 
 import {LongStory} from "../components/slices/longStory/LongStory";
 import {FloorPlans} from "../components/slices/floorPlans/FloorPlans";
+
 const Gallery = dynamic(() => import('../components/slices/gallery/Gallery'))
 import {Map} from "../components/slices/map/Map";
 import {Footer} from "../components/slices/footer/Footer";
@@ -34,8 +35,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet"/>
       </Head>
 
-      <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5PSL4"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}/>
+      <noscript dangerouslySetInnerHTML={{
+        __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5PSL4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>`
+      }}/>
       <div className={styles.container}>
 
         <Hero/>
