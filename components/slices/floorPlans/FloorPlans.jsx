@@ -14,7 +14,7 @@ export const FloorPlans = () => {
           <div className={styles.text}>
             <p>Otrajā stāvā ir dzīvokļi Nr 4, 5 un 6.</p>
             <p>Pārdodas visi trīs dzīvokļi</p>
-            <p>Kopējā platība: 51.5m2</p>
+            <p>Kopējā platība: 155.1m2</p>
             <p>4.dz - vienas istabas dzīvoklis ar 35.5m2</p>
             <p>5.dz - divu istabu dzīvoklis ar 50.7m2</p>
             <p>6.dz - trīs istabu dzīvoklis ar 68.9m2</p>
