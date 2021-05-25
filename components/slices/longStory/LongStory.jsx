@@ -44,6 +44,7 @@ export const LongStory = () => {
             <p>Īpašums sastāv no 6 dzīvokļiem, no tiem pārdodas 4 dzīvokļi ar kopējo platību 206m2 un zeme 1556m2</p>
             <p>Pārdodas 1.dz, 4.dz, 5.dz un 6.dz, respektīvi, viss otrais stāvs un 1. dzīvoklis no pirmā stāva</p>
             <p><b>Visas domājamās daļas ir atrunātas, atzīmētas plānā un ar līgumu pievienotas Zemes grāmatā.</b></p>
+            <p>Māja nav vēstures piemineklis.</p>
           </div>
         </div>
       </Section>
