@@ -30,7 +30,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }}/>
         <title>Iegādājies māju Jūrmalā</title>
         <meta name="description" content="Pārdodas daudzīvokļu nams Jūrmalā tikai 10 minūtes no jūras"/>
-        <link rel="icon" href="/favicon.ico"/>
+        <link rel="icon" href="/favicon.png"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet"/>
       </Head>
