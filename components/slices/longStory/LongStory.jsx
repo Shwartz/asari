@@ -7,7 +7,7 @@ export const LongStory = () => {
   return (
     <>
       <Section bgColor='#fff'>
-        <div className={styles.flex} id='more-info'>
+        <div className={styles.flex}>
           <div className={styles.center}>
             <Image
               src="/img/asari-jura.jpg"
@@ -27,7 +27,7 @@ export const LongStory = () => {
         </div>
       </Section>
       <Section bgColor='#f7fafd'>
-        <div className={`${styles.flex} ${styles.reverse}`}>
+        <div className={`${styles.flex} ${styles.reverse}`} id='more-info'>
           <div className={styles.center}>
             <Image
               src="/img/indula-6-darzs.jpg"
@@ -86,10 +86,8 @@ export const LongStory = () => {
           </div>
           <div>
             <h3>Perspektīva</h3>
-            <p>Šis īpašums, pateicoties lokācijai, ir perspektīvs investīciju objekts kuru var pārvērst B&amp;B.
-              Protams,
-              mājai ir nepieciešams
-              ieguldījums, bet to var darīt arī pakāpeniski</p>
+            <p>Šis īpašums, pateicoties lokācijai, ir perspektīvs investīciju objekts kuru var pārvērst Airbnb.
+              Protams, mājai ir nepieciešams ieguldījums, bet to var darīt arī pakāpeniski</p>
             <p>Dārza teritorija ir pietiekami liela (1500m2) un tur radoši cilvēki varētu atrast interesantu
               pielietojumu</p>
             <p>Iespējams, kāda liela ģimene šo māju saskatītu kā iespēju aizmukt no pilsētas un izveidot radošu

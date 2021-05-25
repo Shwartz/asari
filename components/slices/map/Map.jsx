@@ -28,7 +28,7 @@ export const Map = () => {
           <a
             href="http://bit.ly/map-asari"
             id='map'
-            className={styles.mapLink}
+            className={`${styles.mapLink} track_map`}
             title="Atvērt Google Map"
             rel="noopener noreferrer"
             target="_blank">

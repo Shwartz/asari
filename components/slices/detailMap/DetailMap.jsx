@@ -32,11 +32,11 @@ export const DetailMap = () => {
             <dd>2 (<a href="#more-info">uzzini vairāk</a>)</dd>
           </dl>
         </div>
-        <div className={styles.imgWrap}>
+        <div className={`${styles.imgWrap} track_estateArea`}>
           <div className={styles.openIcn}>
             <Image
               src="/icn/icn-open-img.svg"
-              alt="Atver karti ar Induļu ielas 6 māju jaunā pārlūka lapā"
+              alt="Induļu ielas 6 detālplāns"
               width={40}
               height={40}
             />

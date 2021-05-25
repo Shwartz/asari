@@ -29,6 +29,7 @@ const Gallery = () => {
           title="Atvērt bilžu galeriju city24 vietnē"
           rel="noopener noreferrer"
           target="_blank"
+          className='track_externalLink_city24'
         >
           Papildus bildes vietnē city24.lv</a>
       </p>

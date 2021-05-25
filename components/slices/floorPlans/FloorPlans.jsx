@@ -19,7 +19,7 @@ export const FloorPlans = () => {
             <p>5.dz - divu istabu dzīvoklis ar 50.7m2</p>
             <p>6.dz - trīs istabu dzīvoklis ar 68.9m2</p>
           </div>
-          <div className={styles.imgWrap}>
+          <div className={`${styles.imgWrap} track_plan2`}>
             <div className={styles.openIcn}>
               <Image
                 src="/icn/icn-open-img.svg"
@@ -44,7 +44,7 @@ export const FloorPlans = () => {
             <p>Pārdodas divu istabu dzīvoklis Nr 1. </p>
             <p>Kopējā platība: 51.5m2</p>
           </div>
-          <div className={styles.imgWrap}>
+          <div className={`${styles.imgWrap} track_plan1`}>
             <div className={styles.openIcn}>
               <Image
                 src="/icn/icn-open-img.svg"
