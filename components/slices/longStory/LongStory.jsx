@@ -20,8 +20,8 @@ export const LongStory = () => {
             <h3>Vieta</h3>
             <p>Īpašums atrodas pretī parkam, kurā ir labiekārtots bērnu laukumiņš. Stacija un veikals 5 min
               gājiena attālumā. Pretī veikalam ir armēņu restorāns ar izcilu virtuvi.<br/> Līdz jūrai 7 minūtes.</p>
-            <p>Tikai 10 minūšu brauciena attālumā ir Rimi, Maxima un Kauguru tirgus. Tāpat netālu ir vairākas
-              skolas. (Pumpuri, Sloka). Poliklīnika Kauguros un Dubultos, blakus ir rehabilitācijas centrs Vaivari. </p>
+            <p>Tikai 10 minūšu brauciena attālumā ir Rimi, Maxima un Kauguru tirgus. Netālu ir vairākas skolas (Pumpuri,
+              Sloka). Tuvākā poliklīnika atrodas Kauguros un Dubultos, blakus ir rehabilitācijas centrs Vaivari.</p>
             <p>Ir nojume mašīnai un plašs, iekopts dārzs.</p>
           </div>
         </div>
@@ -38,13 +38,16 @@ export const LongStory = () => {
           </div>
           <div>
             <h3>Īpašums</h3>
-            <p>Īpašums ir celts 1980 gadā, koka divstāvu konstrukcija. Jumts nomainīts pirms gadiem septiņiem, kopā ar
-              tā maiņu tika atjaunoti skursteņi.</p>
-            <p>Īpašumam ir divi īpašnieki un viens pārdod visas savas domājamās daļas.</p>
+            <p>Īpašums ir celts 1980 gadā, koka divstāvu konstrukcija. Jumts nomainīts pirms septiņiem gadiem, kopā ar
+              tā
+              maiņu tika atjaunoti skursteņi.</p>
+            <p>Īpašumam ir divi īpašnieki un viens īpašnieks pārdod visas savas domājamās daļas.</p>
             <p>Īpašums sastāv no 6 dzīvokļiem, no tiem pārdodas 4 dzīvokļi ar kopējo platību 206m2 un zeme 1556m2</p>
-            <p>Pārdodas 1.dz, 4.dz, 5.dz un 6.dz, respektīvi, viss otrais stāvs un 1. dzīvoklis no pirmā stāva</p>
+            <p>Pārdodas viss otrais stāvs - 4.dz, 5.dz un 6.dz, un 1. dzīvoklis no pirmā stāva.</p>
             <p><b>Visas domājamās daļas ir atrunātas, atzīmētas plānā un ar līgumu pievienotas Zemes grāmatā.</b></p>
             <p>Māja nav vēstures piemineklis.</p>
+
+
           </div>
         </div>
       </Section>
@@ -60,9 +63,9 @@ export const LongStory = () => {
           </div>
           <div>
             <h3>Bizness</h3>
-            <p>Visi dzīvokļi tika izremontēti pirms apmēram 10 gadiem. Tika nomainīti visi logi un katrā iekārtota
-              autonoma ūdens sildīšana, pilsētas ūdens un kanalizācija. Faktiski, visi dzīvokļi sagatavoti ar visu
-              nepieciešamo iedzīvei (veļasmašīnas, santehnika, dušas, virtuve, mēbeles.)</p>
+            <p>Aptuveni pirms 10 gadiem, visi dzīvokļi tika izremontēti. Tika nomainīti visi logi un katrā dzīvoklī
+              iekārtota autonoma ūdens sildīšana, pilsētas ūdens un kanalizācija. Faktiski, visi dzīvokļi sagatavoti ar
+              visu nepieciešamo iedzīvei (veļasmašīnas, santehnika, dušas, virtuve, mēbeles.)</p>
             <p>Šobrīd otrais stāvs tiek katru gadu izzīrēts vasaras mēnešiem, tādejādi atpelnot ieguldītos
               līdzekļus.</p>
             <ul>
@@ -86,16 +89,17 @@ export const LongStory = () => {
           </div>
           <div>
             <h3>Perspektīva</h3>
-            <p>Šis īpašums, pateicoties lokācijai, ir perspektīvs investīciju objekts kuru var pārvērst Airbnb.
-              Protams, mājai ir nepieciešams ieguldījums, bet to var darīt arī pakāpeniski</p>
-            <p>Dārza teritorija ir pietiekami liela (1500m2) un tur radoši cilvēki varētu atrast interesantu
-              pielietojumu</p>
-            <p>Iespējams, kāda liela ģimene šo māju saskatītu kā iespēju aizmukt no pilsētas un izveidot radošu
-              vietu.</p>
+            <p>Šis īpašums, pateicoties lokācijai, ir perspektīvs investīciju objekts.
+              Māja uz doto brīdi ir dzīvojama, bet ilgtermiņā mājai ir nepieciešami ieguldījumi. Dzīvokļus var arī
+              sagatavot un piedāvāt izīrēšanai Airbnb vai citās platformās.</p>
+            <p>Mājai ir liela un plaša dārza teritorija (1500m2), kurai radoši cilvēki var atrast interesantu
+              pielietojumu.</p>
+            <p>Iespējams, kādai lielai ģimenei šī māja ir fantastiska iespēja “aizbēgt” no pilsētas un baudīt savu mieru
+              un
+              harmoniju pasakainajā Jūrmalā.</p>
           </div>
         </div>
       </Section>
-
     </>
   )
 }
