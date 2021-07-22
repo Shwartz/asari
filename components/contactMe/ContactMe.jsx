@@ -17,7 +17,7 @@ export const ContactMe = () => {
             height={48}
           />
         </a>
-        <a
+        {/*<a
           title="Atvērs Whatsapp aplikāciju"
           href="https://wa.me/37128753239?text=Labdien,%20Man%20gribētos%20precizēt%20par%20māju%20Asaros."
           className='track_callPhone_footer track_callPhone_hover'
@@ -28,7 +28,7 @@ export const ContactMe = () => {
             width={48}
             height={48}
           />
-        </a>
+        </a>*/}
         <a
           href="tel:+37128753239"
           className='track_whatsappChat_footer track_whatsappChat_hover'

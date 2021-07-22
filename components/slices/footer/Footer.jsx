@@ -14,10 +14,10 @@ export const Footer = () => {
           </dd>
           <dt>Telefons:</dt>
           <dd><a href="tel:+37128753239">+37128753239</a></dd>
-          <dt>Whatsapp:</dt>
+          {/*<dt>Whatsapp:</dt>
           <dd><a title="Atvērs Whatsapp aplikāciju"
                  href="https://wa.me/447725538871?text=Labdien,%20Man%20gribētos%20precizēt%20par%20māju%20Asaros.">Čats</a>
-          </dd>
+          </dd>*/}
         </dl>
         <p className={styles.context}>
           <a href="#floor-plans">Dzīvokļu plāni</a><br/>
